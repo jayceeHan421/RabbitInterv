@@ -1,3 +1,4 @@
+import Cython
 import math
 def metersToFeetAndInches(meters, ftPtr, inPtr):
 	ftPtr.append(1)
